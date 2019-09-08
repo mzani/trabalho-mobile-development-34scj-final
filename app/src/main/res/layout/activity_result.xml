@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout style="@style/container_master">
+
+        <View style="@style/divider"/>
+
+        <TextView
+            style="@style/header_title"
+            android:text="@string/app_name"
+            android:drawableStart="@drawable/notepad_icon"
+            android:drawableLeft="@drawable/notepad_icon" />
+
+        <View style="@style/divider"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -19,13 +19,13 @@
 
 | Tela | Exemplo | 
 |:--------|:--------:|
-| Login  | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) 
-| Criação de usuário | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
-| Cadastro | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
-| SplashScreen | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
-| Lista de Exibição dos Dados| ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
-| Edição dos dados | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
-| Sobre| ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png)
+| Login  | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Criação de usuário | ![Smartphone] (https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Cadastro | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| SplashScreen | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Lista de Exibição dos Dados| ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Edição dos dados | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Sobre | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
 
 ## Como executar a aplicação
 
@@ -52,7 +52,7 @@ Pode ser necessário navegar até a pasta em que o arquivo api.json encontra-se 
 	Done
 
 	Resources
-	http://localhost:3000/types
+	http://localhost:3000/notes
 
 	Home
 	http://localhost:3000
@@ -62,7 +62,7 @@ Pode ser necessário navegar até a pasta em que o arquivo api.json encontra-se 
 	  ~~~
   
 	Abra o navegador de sua preferência e digite a seguinte url:
-    http://localhost:3000/types
+    http://localhost:3000/notes
 
 4. Após abrir a url informada no passo anterior você deverá visualizar as seguintes informações:
 
