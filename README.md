@@ -1,4 +1,5 @@
 
+
 # 34SCJ - Trabalho de Conclusão - Mobile Development
 
 ## Integrantes: 
@@ -19,13 +20,14 @@
 
 | Tela | Exemplo | 
 |:--------|:--------:|
-| Login  | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| Criação de usuário | ![Smartphone] (https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| Cadastro | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| SplashScreen | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| Lista de Exibição dos Dados| ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| Edição dos dados | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
-| Sobre | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento
+| Menu    | ![Smartphone](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/menu.png) |
+| Login  | ![Smartphone](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/login.png) |
+| Criação de usuário | ![Smartphone](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/signup.png) |
+| Cadastro | ![Smartphone](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/insert_notes.png) |
+| SplashScreen | ![Smartphone](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/splash_screen.png) |
+| Lista de Exibição dos Dados| ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento |
+| Edição dos dados | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento |
+| Sobre | ![Smartphone](https://img.icons8.com/android/26/000000/touchscreen-smartphone.png) Em desenvolvimento |
 
 ## Como executar a aplicação
 
@@ -66,7 +68,7 @@ Pode ser necessário navegar até a pasta em que o arquivo api.json encontra-se 
 
 4. Após abrir a url informada no passo anterior você deverá visualizar as seguintes informações:
 
-![Exemplo](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/exemplo-json.png)
+![Exemplo](https://raw.githubusercontent.com/bruno-zambotti/trabalho-mobile-development-34scj/master/assets/json-example.png)
 
 5. Tendo realizado todos os passos anteriores com sucesso a aplicação já poderá consumir e manipular os dados dessa API normalmente.
 
