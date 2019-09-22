@@ -1,10 +1,14 @@
 package com.fiap.notepad.ui.form
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.EditText
 import com.fiap.notepad.utils.DatabaseUtil
 import com.fiap.notepad.R
 import com.fiap.notepad.model.NoteData
@@ -22,6 +26,7 @@ class FormActivity : AppCompatActivity() {
     private lateinit var userId: String
     private lateinit var mAuth: FirebaseAuth
     private val firebaseReferenceNode = "NoteData"
+    private lateinit var editWordView: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +40,26 @@ class FormActivity : AppCompatActivity() {
             saveNoteData()
             startActivity(Intent(this@FormActivity, ListActivity::class.java))
         }
+
+        editWordView = findViewById(R.id.inputNote)
+
+        val button = findViewById<Button>(R.id.inputNote)
+        button.setOnClickListener {
+            val replyIntent = Intent()
+            if (TextUtils.isEmpty(editWordView.text)) {
+                setResult(Activity.RESULT_CANCELED, replyIntent)
+            } else {
+                val word = editWordView.text.toString()
+                replyIntent.putExtra(EXTRA_REPLY, word)
+                setResult(Activity.RESULT_OK, replyIntent)
+            }
+            finish()
+        }
+
+    }
+
+    companion object {
+        const val EXTRA_REPLY = "com.example.android.wordlistsql.REPLY"
     }
 
     private fun saveNoteData() {
